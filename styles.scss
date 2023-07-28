@@ -1,0 +1,50 @@
+#app{
+    margin: 16px;
+    width: 400px;
+    height: 400px;
+    border-radius: 2px;
+    position: relative;
+ 
+
+
+> div.cell {
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    border: 3px solid white;
+    color: white;
+    border-radius: 10px;
+    font-size: 40px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s;
+    cursor: pointer;
+
+    &:hover{
+        background-color:rgb(71, 158, 71);
+
+    }
+}
+}
+
+.moveScore{
+    margin: 16px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.restartBtn{
+    margin: 0 100px;
+    padding: 8px;
+    background-color: rgb(235, 235, 18);
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    box-sizing: border-box;
+    cursor: pointer;
+}
