@@ -118,9 +118,7 @@ if(isWin){
 function resetNumbers(){
     app.innerHTML = ""
     cells.splice(0, cells.length)
-    startGame() 
-    moveScore = 0
-    console.log(cells)     
+    startGame()    
 }
 
     const wrapper = document.createElement("div")
